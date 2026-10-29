@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#203f32"/><path d="M16 18h32v7H36v23h-8V25H16z" fill="#f8f5ef"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="Remembering Titanic ship emblem">
+<defs><clipPath id="badge"><circle cx="500" cy="500" r="465"/></clipPath></defs><circle cx="500" cy="500" r="465" fill="#203f32"/>
+<path d="M84 690 C205 731 275 776 410 763 C539 750 618 690 721 687 C801 684 865 718 920 747 L902 796 C828 755 773 737 718 739 C617 742 538 800 413 814 C272 830 182 781 75 742 Z" fill="#96abed" clip-path="url(#badge)"/>
+<path d="M122 603 L255 574 L255 552 L310 541 L310 521 L426 499 L426 476 L534 455 L534 431 L641 411 L641 386 L712 373 L712 399 L812 383 L907 358 L885 546 C867 575 847 609 830 652 C769 629 726 617 659 620 C543 626 478 685 358 694 C263 701 182 674 132 651 Z" fill="#f8f5ef"/>
+<path d="M257 567 L705 481 L705 497 L257 583 Z" fill="#203f32"/>
+<path d="M237 451 Q236 442 249 438 L281 431 Q292 429 293 438 L293 550 L241 560 Z" fill="#f8f5ef"/>
+<path d="M349 425 Q348 416 360 412 L395 405 Q405 403 406 413 L406 516 L352 527 Z" fill="#f8f5ef"/>
+<path d="M459 398 Q458 389 470 385 L506 378 Q516 376 517 386 L517 489 L462 500 Z" fill="#f8f5ef"/>
+<path d="M570 371 Q569 362 581 358 L619 351 Q629 349 630 359 L630 462 L573 473 Z" fill="#f8f5ef"/>
+<path d="M242 460 L293 450 M353 434 L406 424 M463 407 L517 397 M574 380 L630 370" fill="none" stroke="#203f32" stroke-width="9"/>
+</svg>
