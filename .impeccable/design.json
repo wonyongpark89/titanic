@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T22:49:50.389702+00:00",
+  "title": "Design System: Remembering Titanic",
+  "extensions": {
+    "typographyMeta": {
+      "display": {
+        "displayName": "Homepage display",
+        "purpose": "Desktop default; mobile uses clamp(39px,9.6vw,57px)."
+      },
+      "body": {
+        "displayName": "Reading text",
+        "purpose": "18px desktop, 17px below 600px."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "button-background",
+        "value": "background 0.2s ease",
+        "purpose": "Restrained action hover response; disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "900px"
+      },
+      {
+        "name": "mobile",
+        "value": "600px"
+      }
+    ],
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Ink",
+        "canonical": "#203f32",
+        "tonalRamp": [
+          "oklch(15.00% 0.0440 165.01)",
+          "oklch(26.43% 0.0440 165.01)",
+          "oklch(37.86% 0.0440 165.01)",
+          "oklch(49.29% 0.0440 165.01)",
+          "oklch(60.71% 0.0440 165.01)",
+          "oklch(72.14% 0.0440 165.01)",
+          "oklch(83.57% 0.0440 165.01)",
+          "oklch(95.00% 0.0440 165.01)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#f8f5ef",
+        "tonalRamp": [
+          "oklch(15.00% 0.0086 84.57)",
+          "oklch(26.43% 0.0086 84.57)",
+          "oklch(37.86% 0.0086 84.57)",
+          "oklch(49.29% 0.0086 84.57)",
+          "oklch(60.71% 0.0086 84.57)",
+          "oklch(72.14% 0.0086 84.57)",
+          "oklch(83.57% 0.0086 84.57)",
+          "oklch(95.00% 0.0086 84.57)"
+        ]
+      },
+      "muted": {
+        "role": "accent",
+        "displayName": "Muted",
+        "canonical": "#516457",
+        "tonalRamp": [
+          "oklch(15.00% 0.0310 155.19)",
+          "oklch(26.43% 0.0310 155.19)",
+          "oklch(37.86% 0.0310 155.19)",
+          "oklch(49.29% 0.0310 155.19)",
+          "oklch(60.71% 0.0310 155.19)",
+          "oklch(72.14% 0.0310 155.19)",
+          "oklch(83.57% 0.0310 155.19)",
+          "oklch(95.00% 0.0310 155.19)"
+        ]
+      },
+      "blue": {
+        "role": "accent",
+        "displayName": "Blue",
+        "canonical": "#d1dcff",
+        "tonalRamp": [
+          "oklch(15.00% 0.0496 271.59)",
+          "oklch(26.43% 0.0496 271.59)",
+          "oklch(37.86% 0.0496 271.59)",
+          "oklch(49.29% 0.0496 271.59)",
+          "oklch(60.71% 0.0496 271.59)",
+          "oklch(72.14% 0.0496 271.59)",
+          "oklch(83.57% 0.0496 271.59)",
+          "oklch(95.00% 0.0496 271.59)"
+        ]
+      },
+      "lime": {
+        "role": "accent",
+        "displayName": "Lime",
+        "canonical": "#ebf788",
+        "tonalRamp": [
+          "oklch(15.00% 0.1360 114.10)",
+          "oklch(26.43% 0.1360 114.10)",
+          "oklch(37.86% 0.1360 114.10)",
+          "oklch(49.29% 0.1360 114.10)",
+          "oklch(60.71% 0.1360 114.10)",
+          "oklch(72.14% 0.1360 114.10)",
+          "oklch(83.57% 0.1360 114.10)",
+          "oklch(95.00% 0.1360 114.10)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "#c6ccc1",
+        "tonalRamp": [
+          "oklch(15.00% 0.0164 130.45)",
+          "oklch(26.43% 0.0164 130.45)",
+          "oklch(37.86% 0.0164 130.45)",
+          "oklch(49.29% 0.0164 130.45)",
+          "oklch(60.71% 0.0164 130.45)",
+          "oklch(72.14% 0.0164 130.45)",
+          "oklch(83.57% 0.0164 130.45)",
+          "oklch(95.00% 0.0164 130.45)"
+        ]
+      },
+      "footer": {
+        "role": "neutral",
+        "displayName": "Footer",
+        "canonical": "#e9ecdf",
+        "tonalRamp": [
+          "oklch(15.00% 0.0176 117.30)",
+          "oklch(26.43% 0.0176 117.30)",
+          "oklch(37.86% 0.0176 117.30)",
+          "oklch(49.29% 0.0176 117.30)",
+          "oklch(60.71% 0.0176 117.30)",
+          "oklch(72.14% 0.0176 117.30)",
+          "oklch(83.57% 0.0176 117.30)",
+          "oklch(95.00% 0.0176 117.30)"
+        ]
+      },
+      "primary-hover": {
+        "role": "accent",
+        "displayName": "Primary Hover",
+        "canonical": "#355746",
+        "tonalRamp": [
+          "oklch(15.00% 0.0491 161.60)",
+          "oklch(26.43% 0.0491 161.60)",
+          "oklch(37.86% 0.0491 161.60)",
+          "oklch(49.29% 0.0491 161.60)",
+          "oklch(60.71% 0.0491 161.60)",
+          "oklch(72.14% 0.0491 161.60)",
+          "oklch(83.57% 0.0491 161.60)",
+          "oklch(95.00% 0.0491 161.60)"
+        ]
+      },
+      "secondary-hover": {
+        "role": "accent",
+        "displayName": "Secondary Hover",
+        "canonical": "#bdcbf4",
+        "tonalRamp": [
+          "oklch(15.00% 0.0594 270.29)",
+          "oklch(26.43% 0.0594 270.29)",
+          "oklch(37.86% 0.0594 270.29)",
+          "oklch(49.29% 0.0594 270.29)",
+          "oklch(60.71% 0.0594 270.29)",
+          "oklch(72.14% 0.0594 270.29)",
+          "oklch(83.57% 0.0594 270.29)",
+          "oklch(95.00% 0.0594 270.29)"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary destination or download action.",
+      "html": "<a class=\"ds-button ds-primary\" href=\"#\">Explore teaching resources</a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;gap:20px;padding:17px 26px;border-radius:100px;font:700 16px 'DM Sans',sans-serif;text-decoration:none;border:2px solid;min-height:58px;transition:background .2s}.ds-button:focus-visible{outline:3px solid #203f32;outline-offset:6px}.ds-primary{background:#203f32;color:#f8f5ef;border-color:#203f32}.ds-primary:hover{background:#355746}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "An equally visible alternative destination.",
+      "html": "<a class=\"ds-button ds-secondary\" href=\"#\">Explore the research</a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;gap:20px;padding:17px 26px;border-radius:100px;font:700 16px 'DM Sans',sans-serif;text-decoration:none;border:2px solid;min-height:58px;transition:background .2s}.ds-button:focus-visible{outline:3px solid #203f32;outline-offset:6px}.ds-secondary{background:#d1dcff;color:#203f32;border-color:#d1dcff}.ds-secondary:hover{background:#bdcbf4;border-color:#bdcbf4}"
+    },
+    {
+      "name": "Subject Filter",
+      "kind": "chip",
+      "refersTo": "filter",
+      "description": "Select all lessons, history or science.",
+      "html": "<button class=\"ds-filter\" aria-pressed=\"true\">Science</button>",
+      "css": ".ds-filter{font:15px 'DM Sans',sans-serif;border:1px solid #203f32;border-radius:30px;padding:10px 21px;background:transparent;color:#203f32;cursor:pointer}.ds-filter[aria-pressed=true],.ds-filter:hover{background:#203f32;color:#f8f5ef}.ds-filter:focus-visible{outline:3px solid #203f32;outline-offset:6px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Visible wrapping text navigation.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Example navigation\"><a href=\"#\" aria-current=\"page\">Teaching resources</a><a href=\"#\">Research</a></nav>",
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:32px;font:600 16px 'DM Sans',sans-serif;color:#203f32}.ds-nav a{color:inherit;text-decoration:none;padding:10px 0;text-underline-offset:5px}.ds-nav a:hover,.ds-nav a[aria-current]{text-decoration:underline;text-decoration-thickness:2px}.ds-nav a:focus-visible{outline:3px solid #203f32;outline-offset:6px}"
+    },
+    {
+      "name": "Resource Download",
+      "kind": "custom",
+      "description": "A file title with format and size, separated by a fine rule.",
+      "html": "<a class=\"ds-download\" href=\"#\">Lesson overview <span>PDF ? 0.2 MB</span></a>",
+      "css": ".ds-download{display:flex;justify-content:space-between;align-items:center;gap:25px;padding:16px 0;border-bottom:1px solid #c6ccc1;color:#203f32;text-decoration:none;font:500 17px 'DM Sans',sans-serif}.ds-download span{font-size:13px;font-weight:400;white-space:nowrap}.ds-download:hover{text-decoration:underline;text-underline-offset:5px}.ds-download:focus-visible{outline:3px solid #203f32;outline-offset:6px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A shared enquiry",
+    "overview": "A friendly editorial education site that connects classroom resources with educational research. Cream, bold green lettering and periwinkle annotations adapt the user's supplied reference; real project photography anchors the design in collaborative learning.",
+    "keyCharacteristics": [
+      "Equal prominence for teaching resources and research.",
+      "Real workshop photography and preserved partner identities.",
+      "Generous typography, flat colour fields and clearly divided lists."
+    ],
+    "rules": [
+      {
+        "name": "The Equal Paths Rule",
+        "body": "Resources and research receive equal structural space even when their action colours differ.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do give teaching resources and research equal structural prominence.",
+      "Do use real project images and maintain partner artwork proportions.",
+      "Do keep resource downloads available without JavaScript."
+    ],
+    "donts": [
+      "Don't use tragedy as decorative spectacle.",
+      "Don't invent research claims, publication metadata or testimonials.",
+      "Don't extend the lesson licence automatically to photographs and logos."
+    ]
+  }
+}
