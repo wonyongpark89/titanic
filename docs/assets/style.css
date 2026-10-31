@@ -55,8 +55,6 @@ footer{background:#e9ecdf;padding:65px max(30px,calc((100vw - 1184px)/2)) 30px}
 @media(max-width:760px){footer{text-align:center}.footer-top{justify-items:center}.footer-top .brand{justify-content:center}.partners{justify-content:center}.fine{align-items:center;border-top:0;padding-top:0}}
 
 /* Lime accents for the research, workshops and people pages. */
-.page-research .page-heading,.page-workshops .page-heading,.page-people .page-heading{border-bottom-color:var(--lime)}
-.page-research .underline,.page-workshops .underline{text-decoration-color:var(--lime)}
 .page-research .findings-section{background:var(--lime)}
 .page-workshops .date{background:var(--lime);padding:12px 16px;align-self:start;justify-self:start}
 .page-people .people-heading h2{background:var(--lime);padding:4px 10px;margin-left:-10px}
