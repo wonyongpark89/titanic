@@ -58,3 +58,10 @@ footer{background:#e9ecdf;padding:65px max(30px,calc((100vw - 1184px)/2)) 30px}
 .page-research .findings-section{background:var(--lime)}
 .page-workshops .date{background:var(--lime);padding:12px 16px;align-self:start;justify-self:start}
 .page-people .people-heading h2{background:var(--lime);padding:4px 10px;margin-left:-10px}
+
+/* A distinct, readable home for additional classroom materials. */
+.further-resources{max-width:1184px;background:var(--blue);padding:55px;margin:0 auto 90px}
+.further-resources h2{max-width:20ch}
+.further-resources .download{border-bottom-color:rgba(32,63,50,.35)}
+.further-resources .video-intro{font-weight:700}
+@media(max-width:760px){.further-resources{margin:0 22px 48px;padding:30px}.further-resources .download{display:block}.further-resources .download span{display:block;margin-top:4px;white-space:normal}}
